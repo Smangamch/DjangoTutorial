@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'mothersDAY',
+    'tasks',
     'webApplication',
     'django.contrib.admin',
     'django.contrib.auth',

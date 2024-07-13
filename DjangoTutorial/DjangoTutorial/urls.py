@@ -21,4 +21,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('webApplication/', include("webApplication.urls")),
     path('mothersDAY/', include("mothersDAY.urls")),
+    path('tasks/', include("tasks.urls")),
+
 ]
